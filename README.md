@@ -18,8 +18,8 @@ The purpose of this project is to create a text-editor that can be used both onl
 - Ensure deploying to Render has proper build scripts for a webpack application
 
 ## Web Application Preview
-![Application Screenshot 1](assets/images/text-editor-application-1.png)
-![Application Screenshot 2](assets/images/text-editor-application-2.png)
+![Application Screenshot 1](assets/text-editor-application-1.png)
+![Application Screenshot 2](assets/text-editor-application-2.png)
 
 ## Submission Requirements
 - [Deployed Application](https://text-editor-app-d968.onrender.com/)
