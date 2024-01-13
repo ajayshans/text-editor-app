@@ -1,4 +1,4 @@
-# text-editor-app
+# Text Editor Application (PWA) 🧰
 
 ## Description
 The purpose of this project is to create a text-editor that can be used both online and offline. The ability for this application to be used offline is made possible as it is a Progressive Web Application (PWA). This is additionally a demonstration of the client-server model in use in conjunction with the npm package 'concurrently'. IndexedDB and webpack have also been used in this application.
@@ -17,9 +17,9 @@ The purpose of this project is to create a text-editor that can be used both onl
 - Ensure registering service worker should have static assets precached upon loading along with subsequent pages and static assets
 - Ensure deploying to Render has proper build scripts for a webpack application
 
-## Insomnia Application Preview
-![Application Screenshot 1](client/src/images/text-editor-application-1.png)
-![Application Screenshot 2](client/src/images/text-editor-application-2.png)
+## Web Application Preview
+![Application Screenshot 1](assets/images/text-editor-application-1.png)
+![Application Screenshot 2](assets/images/text-editor-application-2.png)
 
 ## Submission Requirements
 - [Deployed Application](https://text-editor-app-d968.onrender.com/)
