@@ -1,18 +1,26 @@
 # text-editor-app
 
 ## Description
-The purpose of this project is to utilise NoSQL (MongoDB) and Object-Document Mapping (ODM) via Mongoose to build the back end for a social network website. ODM, Mongoose, is used and install via npm. Express.js has also been used in the development of this application.
+The purpose of this project is to create a text-editor that can be used both online and offline. The ability for this application to be used offline is made possible as it is a Progressive Web Application (PWA). This is additionally a demonstration of the client-server model in use in conjunction with the npm package 'concurrently'. IndexedDB and webpack have also been used in this application.
 
 ## Requirements
-- Ensure running command to start application leads to server starting and Mongoose models syncing to MongoDB database
-- Ensure GET routes for users and thoughts lead to data being displayed in a formatted JSON
-- Ensure testing POST, PUT, DELETE routes in Insomnia allows successful creation, updating and deletion of users and thoughts in database
-- Ensure testing POST and DELETE routes in Insomnia allows succesfful creation and deletion of reactions to thoughts and friends in a user's friend list
+- Ensure opening application in editor displays a client-server folder structure
+- Ensure running `npm run start` from root directory has application backend start and serve the client
+- Ensure running text editor in application has JS files bundled via webpack
+- Ensure running webpack plugins leads to generated HTML file, service worker and manifest file
+- Ensure text editor functions in the browser with no errors
+- Ensure opening text editor leads to IndexedDB creating a database storage
+- Ensure entering content and clicking of DOM window leads to content in text editor being saved with IndexedDB
+- Ensure reopening text editor after close leads to content being retrieved from IndexedDB
+- Ensure clicking on Install button downloads application as icon on desktop
+- Ensure loading web application should have a registered service worker using workbox
+- Ensure registering service worker should have static assets precached upon loading along with subsequent pages and static assets
+- Ensure deploying to Render has proper build scripts for a webpack application
 
 ## Insomnia Application Preview
-![Application Screenshot 1](images/social-network-application-1.png)
-![Application Screenshot 2](images/social-network-application-2.png)
+![Application Screenshot 1](client/src/images/text-editor-application-1.png)
+![Application Screenshot 2](client/src/images/text-editor-application-2.png)
 
 ## Submission Requirements
-- [Video Walkthrough](https://drive.google.com/file/d/1xJEscXL4tYvMHd6mUD1TFQXrjl1RGLix/view)
-- [GitHub Repo](https://github.com/ajayshans/social-network-api)
+- [Deployed Application](https://text-editor-app-d968.onrender.com/)
+- [GitHub Repo](https://github.com/ajayshans/text-editor-app)
